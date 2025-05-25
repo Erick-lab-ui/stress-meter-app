@@ -1,0 +1,75 @@
+.result-container {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Baloo 2', cursive;
+  }
+  
+  h2, h3, p {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  @media (max-width: 600px) {
+    .progress-bar-container {
+      height: 30px;
+      width: 90%;
+    }
+  
+    h2, h3, p {
+      font-size: 20px;
+    }
+  }
+  
+  
+  .progress-bar-container {
+    background-color: #e0e0e0; /* Light gray background for the bar */
+    border-radius: 25px;
+    height: 40px;
+    width: 100%;
+    margin: 1rem auto;
+  }
+  
+    .progress-bar {
+        height: 100%;
+        background: linear-gradient(90deg, #ff9aa2, #fad0c4);
+        border-radius: 25px;
+        transition: width 1s ease;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white; /* Text inside bar */
+        font-weight: bold;
+      }
+      
+      .progress-text {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        z-index: 2;
+        font-size: 18px;
+      }
+      
+  
+  p {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .result-container button {
+    background-color: #ffb6b9;
+    font-family: 'Chewy', cursive; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .result-container button:hover {
+    background-color: #f67280;
+  }
+  

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800;900&family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/* Global body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff8e7;
+  color: #333; /* dark text for contrast */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full screen */
+  text-align: center;
+}
+
+/* Style for category label */
+.category-label {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+
+
+/* The container for the question and choices */
+.question-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow:
+    4px 4px 0px #ffb6b6,
+    8px 8px 0px #ffa6a6;
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+  border: 2px solid #ffb6b6;
+}
+
+/* Mobile responsiveness for question images */
+@media (max-width: 768px) {
+  .question-icon {
+    width: 120px; /* Set a smaller width for mobile */
+    height: 120px; /* Set a smaller height for mobile */
+    object-fit: contain; /* Ensures the image maintains its aspect ratio */
+  }
+}
+
+@media (max-width: 480px) {
+  .question-icon {
+    width: 100px; /* Further reduce the image size for small screens */
+    height: 100px; /* Keep the height in proportion */
+  }
+}
+
+.question-icon {
+    width: 100px; /* Further reduce the image size for small screens */
+    height: 100px; /* Keep the height in proportion */
+  }
+
+.question-text {
+  font-family: 'Ruda';
+  font-size: 20px;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Styling for the choices (buttons) */
+.choices {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center buttons */
+  gap: 15px; /* Space between buttons */
+}
+
+/* Style for choices buttons */
+.choices button {
+  background-color: white; /* Set inside background to white */
+  color: #b769c2; /* Soft teal color for text */
+  border: 2px solid #b769c2; /* Border with the same color as the text */
+  padding: 14px 28px; /* Slightly larger for better feel */
+  font-size: 18px;
+  font-family: 'Baloo 2', cursive; /* Fun font to keep it engaging */
+  border-radius: 12px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 350px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.choices button:hover {
+  background-color: #f0f0f0; /* Light gray for hover to maintain contrast */
+  transform: scale(1.05); /* Slight scale-up on hover */
+}
+
+.choices button:focus {
+  outline: none; /* Removes default focus outline */
+  box-shadow: 0 0 10px rgba(161, 31, 161, 0.8); /* Glow effect on focus */
+}
+
+/* Style for the buttons when they are selected */
+.choices button.selected {
+  background-color: #aa2cc4; /* Soft teal background when selected */
+  color: white; /* White text when selected */
+  border: 2px solid #aa2cc4; /* Border same as button color */
+}
+
+/* Add some space between the buttons */
+.choices button {
+  font-family: 'Quicksand', sans-serif;
+  margin: 5px;
+}
+
+/* Style for navigation buttons (Back/Next) */
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 2rem; /* Adjust gap to maintain alignment */
+}
+
+/* Style for the navigation buttons (Back/Next) */
+.navigation-buttons button {
+  font-family: 'Ruslan Display', cursive; /* Stylish font */
+  padding: 12px 24px; /* Slightly more padding for a better feel */
+  background-color: #eb9ef1; /* Original blue color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Hover effect for navigation buttons */
+.navigation-buttons button:hover {
+  background-color: #aa2cc4; /* Darker blue when hovered */
+  transform: scale(1.05); /* Slightly larger on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+/* Focus effect to make the button glow */
+.navigation-buttons button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.8); /* Blue glow effect */
+}
+
+/* Disable buttons when no selection is made */
+.navigation-buttons button:disabled {
+  background-color: #d6d6d6; /* Disabled color */
+  cursor: not-allowed;
+  box-shadow: none; /* Remove shadow when disabled */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  body {
+    padding: 20px; /* Add padding for smaller screens */
+  }
+
+  .question-container {
+    padding: 1.5rem;
+    max-width: 90%; /* Make the question container full width on mobile */
+  }
+
+  .question-text {
+    font-size: 18px; /* Slightly smaller font */
+  }
+
+  .choices button {
+    max-width: 100%; /* Make buttons full width */
+    font-size: 16px; /* Adjust font size for smaller screen */
+    padding: 12px 24px; /* Adjust padding for mobile */
+  }
+
+  .navigation-buttons button {
+    font-size: 20px; /* Smaller font size for buttons */
+    padding: 10px 20px; /* Adjust padding for smaller buttons */
+  }
+}
+
+@media (max-width: 480px) {
+  .question-container {
+    padding: 1rem;
+  }
+
+  .question-text {
+    font-size: 16px; /* Adjust question font size */
+  }
+
+  .choices button {
+    font-size: 14px; /* Smaller button text */
+    padding: 10px 20px; /* Adjust padding */
+  }
+
+  .navigation-buttons button {
+    font-size: 18px; /* Adjust button text size for mobile */
+  }
+}

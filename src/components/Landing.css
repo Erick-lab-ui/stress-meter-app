@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.landing-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: .5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .landing-page h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+    color: #333;
+    margin-top: 1rem;
+  }
+  
+  .landing-page p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .landing-page button {
+    background-color: #ff9aa2;
+    color: #fff;
+    font-family: 'Chewy', cursive; 
+    font-size: 20px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .landing-page button:hover {
+    background-color: #f39baf;
+    transform: scale(1.05);
+  }
+
+
+  /* Mobile responsiveness */
+@media (max-width: 768px) {
+    body {
+      padding: 20px; /* Add padding for smaller screens */
+    }
+  
+    .landing-image {
+      width: 150px; /* Smaller image for mobile */
+      height: 150px;
+    }
+  
+    .landing-page h1 {
+      font-size: 32px; /* Adjust heading size for mobile */
+    }
+  
+    .landing-page p {
+      font-size: 18px; /* Adjust paragraph size */
+    }
+}
+
+@media (max-width: 480px) {
+    .landing-image {
+      width: 120px; /* Even smaller image */
+      height: 120px;
+    }
+  
+    .landing-page h1 {
+      font-size: 28px; /* Adjust heading size for smaller screens */
+    }
+  
+    .landing-page p {
+      font-size: 16px; /* Adjust paragraph size */
+    }
+}
+
