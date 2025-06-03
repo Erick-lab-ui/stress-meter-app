@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/stress-meter-app/static/css/main.1701aed3.css",
-    "main.js": "/stress-meter-app/static/js/main.41818748.js",
+    "main.css": "/stress-meter-app/static/css/main.46bc5370.css",
+    "main.js": "/stress-meter-app/static/js/main.2f340f10.js",
     "static/media/General2icon.gif": "/stress-meter-app/static/media/General2icon.0a9bc2972a1ba413b99f.gif",
+    "static/media/bg5.gif": "/stress-meter-app/static/media/bg5.5717eeab34258d7433c8.gif",
     "static/media/Work3icon.gif": "/stress-meter-app/static/media/Work3icon.41bd79124d80ea7bce3f.gif",
     "static/media/Self1icon.gif": "/stress-meter-app/static/media/Self1icon.1784e9561a03e50ff45c.gif",
     "static/media/Work1icon.gif": "/stress-meter-app/static/media/Work1icon.d7b1d4921f2c1969f076.gif",
     "static/media/General1icon.gif": "/stress-meter-app/static/media/General1icon.64d263faf9d7731d6fdf.gif",
+    "static/media/bg2.gif": "/stress-meter-app/static/media/bg2.2581cb8a4bc1d2c5be06.gif",
     "static/media/Life2icon.gif": "/stress-meter-app/static/media/Life2icon.f1026cd2a6012dac9bfd.gif",
+    "static/media/bg3.gif": "/stress-meter-app/static/media/bg3.1206edfc5accc9bf1565.gif",
+    "static/media/bg4.gif": "/stress-meter-app/static/media/bg4.9314dfe92fa0d6e70ea7.gif",
     "static/media/icon1.gif": "/stress-meter-app/static/media/icon1.52e603843d281fa0d74e.gif",
     "static/media/Self2icon.gif": "/stress-meter-app/static/media/Self2icon.a62fbfa2b3c935962ffb.gif",
     "static/media/Work2icon.gif": "/stress-meter-app/static/media/Work2icon.dae9cd2774d9d2b236c2.gif",
+    "static/media/bg1.gif": "/stress-meter-app/static/media/bg1.24d236041999862470de.gif",
     "static/media/Life1icon.gif": "/stress-meter-app/static/media/Life1icon.fca32eab45eb8979ca10.gif",
     "index.html": "/stress-meter-app/index.html",
-    "main.1701aed3.css.map": "/stress-meter-app/static/css/main.1701aed3.css.map",
-    "main.41818748.js.map": "/stress-meter-app/static/js/main.41818748.js.map"
+    "main.46bc5370.css.map": "/stress-meter-app/static/css/main.46bc5370.css.map",
+    "main.2f340f10.js.map": "/stress-meter-app/static/js/main.2f340f10.js.map"
   },
   "entrypoints": [
-    "static/css/main.1701aed3.css",
-    "static/js/main.41818748.js"
+    "static/css/main.46bc5370.css",
+    "static/js/main.2f340f10.js"
   ]
 }
