@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/stress-meter-app/static/css/main.46bc5370.css",
-    "main.js": "/stress-meter-app/static/js/main.2f340f10.js",
+    "main.css": "/stress-meter-app/static/css/main.7a205c9b.css",
+    "main.js": "/stress-meter-app/static/js/main.32b28f8c.js",
     "static/media/General2icon.gif": "/stress-meter-app/static/media/General2icon.0a9bc2972a1ba413b99f.gif",
     "static/media/bg5.gif": "/stress-meter-app/static/media/bg5.5717eeab34258d7433c8.gif",
     "static/media/Work3icon.gif": "/stress-meter-app/static/media/Work3icon.41bd79124d80ea7bce3f.gif",
@@ -18,11 +18,11 @@
     "static/media/bg1.gif": "/stress-meter-app/static/media/bg1.24d236041999862470de.gif",
     "static/media/Life1icon.gif": "/stress-meter-app/static/media/Life1icon.fca32eab45eb8979ca10.gif",
     "index.html": "/stress-meter-app/index.html",
-    "main.46bc5370.css.map": "/stress-meter-app/static/css/main.46bc5370.css.map",
-    "main.2f340f10.js.map": "/stress-meter-app/static/js/main.2f340f10.js.map"
+    "main.7a205c9b.css.map": "/stress-meter-app/static/css/main.7a205c9b.css.map",
+    "main.32b28f8c.js.map": "/stress-meter-app/static/js/main.32b28f8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.46bc5370.css",
-    "static/js/main.2f340f10.js"
+    "static/css/main.7a205c9b.css",
+    "static/js/main.32b28f8c.js"
   ]
 }
